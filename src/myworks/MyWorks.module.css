@@ -1,0 +1,19 @@
+.mainWrap {
+    min-height: 100vh;
+    background-color: rgb(251, 245, 235);
+}
+.myWorkConteiner {
+    flex-direction: column;
+    justify-content: flex-start ;
+}
+.title {
+    background-color: rgb(255, 183, 249);
+}
+.myWorks {
+    border: 1px solid;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

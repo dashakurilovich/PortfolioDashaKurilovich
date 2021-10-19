@@ -1,0 +1,17 @@
+.mainWrapWork {
+    background-color: rgb(211, 255, 231);
+    height: 40vh;
+}
+
+.title {
+    background-color:  rgb(184, 255, 231);
+
+}
+
+.freeWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}

@@ -1,0 +1,20 @@
+.mainBlock {
+    height: 100vh;
+    background-color: rgb(251, 245, 235);
+    display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.text {
+    width: 300px;
+    background-color:rgb(255, 189, 238) ;
+    
+}
+
+.photo {
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 189, 238);
+    
+}

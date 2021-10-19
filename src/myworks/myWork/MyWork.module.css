@@ -1,0 +1,38 @@
+.myWork{
+   width:260px;
+   border: 1px solid black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   background-size: cover;
+   flex-wrap: wrap 
+   
+}
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+   background-color: cornsilk;
+   border: 0px solid;
+   display: inline-block;
+}
+.icon{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.nameProject{
+    width: 250px;
+    background-color: rgb(255, 227, 253);
+
+}
+.shortDescription{
+    width: 250px;
+    background-color: rgb(255, 227, 253);
+}
