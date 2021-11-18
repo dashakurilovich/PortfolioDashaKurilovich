@@ -1,6 +1,6 @@
 .wrapFooter {
     background-color: rgb(211, 255, 231);
-    height: 40vh;
+    height: 60vh;
     display: flex;
     justify-content: space-around;
 }

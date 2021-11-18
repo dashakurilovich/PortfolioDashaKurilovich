@@ -9,9 +9,10 @@
    flex-wrap: wrap 
    
 }
-.description {
+.projectInfo {
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .button {
@@ -28,11 +29,21 @@
     object-fit: cover;
 }
 .nameProject{
-    width: 250px;
-    background-color: rgb(255, 227, 253);
-
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    color: #0e090d;
+    text-decoration: none;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
 }
+
 .shortDescription{
-    width: 250px;
-    background-color: rgb(255, 227, 253);
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    letter-spacing: 0;
+    text-align: center;
+
 }

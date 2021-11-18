@@ -1,11 +1,11 @@
 .mainWrapWork {
     background-color: rgb(211, 255, 231);
-    height: 40vh;
+    height: 50vh;
 }
 
 .title {
     background-color:  rgb(184, 255, 231);
-
+    font-weight: bold;
 }
 
 .freeWork {
