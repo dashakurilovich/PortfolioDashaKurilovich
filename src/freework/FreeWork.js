@@ -8,7 +8,7 @@ function FreeWork() {
     return (
         <div className={styles.mainWrapWork}>
             <div className={`${styleContainer.container} ${styles.freeWork}`}>
-                <Title text={"I avaiable freelance"} />
+                <Title text={"I am avaiable for freelance"} />
                 <button>Нанять меня </button>
             </div>
         </div>
