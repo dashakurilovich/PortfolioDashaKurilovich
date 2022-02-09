@@ -25,12 +25,12 @@ function MyWorks() {
                     <MyWork
                         style={social}
                         title={"Social Networking"}
-                        shortDescription={"About social networking"}
+                        shortDescription={"An online platform that is used for communication, dating, creating social relationships between people who have similar interests or offline connections, as well as for entertainment (music, movies) and work."}
                     />
                     <MyWork
                         style={todolist}
                         title={"Todo List"}
-                        shortDescription={"About Todo List"}
+                        shortDescription={"Todoist is a web service and a collection of task management software. Tasks can also contain notes with files of any type. Tasks can be placed in projects, sorted by filters, labeled, edited and exported."}
                     />
                 </div>
             </div>
