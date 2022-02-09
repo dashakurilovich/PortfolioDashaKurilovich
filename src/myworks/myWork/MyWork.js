@@ -8,8 +8,8 @@ function MyWork(props) {
                 <a className={styles.viewBtn}>Смотреть</a>
             </div>
             <div className={styles.projectInfo}>
-                <h3 className={styles.nameProject}>{props.title}</h3>
-                <p className={styles.shortDescription}>{props.shortDescription}</p>
+                <h3 className={styles.projectTitle}>{props.title}</h3>
+                <span className={styles.shortDescription}>{props.shortDescription}</span>
             </div>
         </div>
     );

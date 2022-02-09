@@ -1,32 +1,29 @@
 
 .title {
-    font-family: 'Jost', sans-serif;
-    color: #0e090d;
-    margin: 0 0 30px;
-    padding: 0;
-    font-size: 46px;
-    text-align: center;
-    font-weight: 600;
-    line-height: 1;
-    padding-bottom: 29px;
+    font-family: 'Josefin Slab', sans-serif;
+    margin-bottom: 0 0 30px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    position:relative;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
     position: relative;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    left: -5px;
-    position:relative
-
 }
 .title h3 {
     margin: 0;
 }
-.title::after {
+
+.title::before {
     content: "";
-     position: absolute;
-    bottom: 0;
+    position: absolute;
+    background: #4e93e6;
+    width: 55px;
+    height: 1px;
+    bottom: -20px;
     left: 50%;
-    width: 200px;
-    height: 10px;
-    background-color: #000;
     transform: translate(-50%,50%);
 }
+
 

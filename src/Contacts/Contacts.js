@@ -10,10 +10,10 @@ function Contacts() {
             <div className={`${styleContainer.container} ${styles.myContactsConteiner}`}>
                <Title text={"Contacts"} />
                 <form className={styles.form}>
-                    <input className={styles.input} />
-                    <input className={styles.input} />
-                    <textarea className={styles.textarea} />
-                    <button className={styles.button}> Отправить </button>
+                    <input type="text" />
+                    <input type="text"  />
+                    <textarea  />
+                    <button type="submit" className={styles.submitBtn}> Отправить </button>
                 </form>
             </div>
         </div>
