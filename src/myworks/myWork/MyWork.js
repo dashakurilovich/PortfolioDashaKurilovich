@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './MyWork.module.css';
+import styles from './MyWork.module.scss';
 
 function MyWork(props) {
     return (
