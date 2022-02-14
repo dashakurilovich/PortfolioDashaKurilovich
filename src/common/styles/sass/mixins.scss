@@ -1,6 +1,6 @@
 @import '../sass/variables.scss';
 
-@mixin text( $fontFamily,$fontSize,$lineHeight) {
+@mixin text( $fontFamily, $fontSize, $lineHeight) {
     font-family: $fontFamily;
     font-size: $fontSize;
     line-height: $lineHeight;
