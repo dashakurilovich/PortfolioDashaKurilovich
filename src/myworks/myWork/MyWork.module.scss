@@ -1,8 +1,10 @@
+@import '../../common/styles/sass/variables.scss';
+
 .myWork{
    width:460px;
    display: flex;
    flex-direction: column;
-   background-color: #252527;
+   background-color: $bgSecondColor;
    .image{
     height: 300px;
     display: flex;
@@ -12,10 +14,10 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    .image ::before {
+    &::before {
         position: absolute;
         content: '';
-        background-color: #ebebfb;
+        background-color: black;
         top: 0;
         bottom: 0;
         left: 0;
@@ -23,10 +25,11 @@
         opacity: 0.3;
     }    
     .viewBtn {
-        background-color: #ebebfb;
+        background-color: $primaryColor;
         padding: 10px 20px;
         position: relative;
         z-index: 1;
+        color: $textColor;
       }
  }
  .projectInfo {
@@ -37,15 +40,17 @@
         font-family: "Josefin Sans", sans-serif;
         font-size: 16px;
         letter-spacing: 1px;
-        margin: 0 0 5px;
         line-height: 1.2;
-        color: #fff;
+        color:$textColor;
+
+        margin: 0 0 5px;
     }
     .shortDescription{
         font-family: Poppins, sans-serif;
-        text-align: left;
         font-size: 12px;
-        color: #fff;
+        color: $textColor;
+        line-height: 1.8;
+        font-weight: 400;
     }
 }
 }

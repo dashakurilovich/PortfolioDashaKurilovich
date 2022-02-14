@@ -1,6 +1,8 @@
+@import '../common/styles/sass/variables.scss';
+
 .mainWrap {
     padding: 100px 0;
-    background-color: #1f1f20;
+    background-color: $bgColor;
     .myWorkConteiner {
         flex-direction: column;
         justify-content: flex-start ;
