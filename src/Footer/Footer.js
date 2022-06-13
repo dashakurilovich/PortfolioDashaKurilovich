@@ -15,7 +15,7 @@ function Footer() {
                     <div className={styles.cell}></div>
                     <div className={styles.cell}></div>
                 </div>
-                <span >@2022 Все права защищены</span>
+                <span className={styles.copyright}>@2022 Все права защищены</span>
             </div>
         </div>
     );

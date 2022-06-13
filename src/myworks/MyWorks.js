@@ -7,7 +7,6 @@ import todoImage from './../assets/images/todolists.jpg'
 import socialnetworkImage from './../assets/images/socialnetwork.jpg'
 
 
-
 function MyWorks() {
 
     const social = {

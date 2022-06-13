@@ -9,7 +9,7 @@ function FreeWork() {
         <div className={styles.mainWrapWork}>
             <div className={`${styleContainer.container} ${styles.freeWork}`}>
                 <Title text={"I am avaiable for freelance"} />
-                <button>Нанять меня </button>
+                <a href="" className={styles.freeWorkBtn}>Нанять меня </a>
             </div>
         </div>
     );

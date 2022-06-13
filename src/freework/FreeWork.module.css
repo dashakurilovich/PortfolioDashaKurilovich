@@ -1,6 +1,5 @@
 .mainWrapWork {
     background-color: rgb(211, 255, 231);
-    height: 50vh;
 }
 
 .title {
@@ -11,7 +10,11 @@
 .freeWork {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
- 
+}
+
+.freeWorkBtn {
+padding: 10px 20px;
+background-color: #eeeef5;
 }
