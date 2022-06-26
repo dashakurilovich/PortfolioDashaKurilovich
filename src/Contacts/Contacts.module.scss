@@ -1,7 +1,8 @@
+@import '../common/styles/sass/variables.scss';
 
 .wrapContacts{
     min-height: 50vh;
-    background-color: rgb(251, 245, 235);
+    background-color: $bgColor;
 }
 .myContactsConteiner{
     flex-direction: column;
@@ -31,6 +32,7 @@
     margin: 5px;
     padding: 10px 20px;
     background-color: rgb(214, 214, 214);
+    color: $textColor
 }
 
 @media screen and (max-width:950px) {

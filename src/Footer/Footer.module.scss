@@ -1,5 +1,7 @@
+@import '../common/styles/sass/variables.scss';
+
 .wrapFooter {
-    background-color: rgb(211, 255, 231);
+    background-color: $bgSecondColor;
 
 }
 .title {

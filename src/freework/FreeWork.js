@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FreeWork.module.css';
+import styles from './FreeWork.module.scss';
 import styleContainer from '../common/styles/Conteiner.module.css'
 import Title from '../common/styles/components/title/Title';
 

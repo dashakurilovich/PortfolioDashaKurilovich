@@ -5,7 +5,7 @@ function MyWork(props) {
     return (
         <div className={styles.myWork}>
             <div className={styles.image} style={props.style} >
-                <a className={styles.viewBtn}>Смотреть</a>
+                <a href="" className={styles.viewBtn}>Смотреть</a>
             </div>
             <div className={styles.projectInfo}>
                 <h3 className={styles.projectTitle}>{props.title}</h3>
