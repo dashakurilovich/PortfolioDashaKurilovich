@@ -5,14 +5,16 @@ import styleContainer from '../common/styles/Conteiner.module.css'
 function MainBlock() {
     return (
         <div className={styles.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={styles.container}>
                 <div className={styles.text}>
                     <span>Hi There</span>
-                    <h1>I am Dasha Kurilovich</h1>
-                    <p>A front-end developer</p>
+                    <span> I am Dasha <span> Kurilovich</span></span>
+                    <h1>Frontend Developer.</h1>
                 </div>
-                <div className={styles.photo}></div>
-            </div >
+                <div className={styles.photo}>
+                    <div className={styles.image}></div>
+                </div>
+            </div>
         </div >
     );
 }

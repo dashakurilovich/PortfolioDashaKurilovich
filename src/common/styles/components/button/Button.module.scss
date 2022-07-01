@@ -1,0 +1,39 @@
+@import '../../sass/mixins.scss';
+@import '../../sass/variables.scss';
+
+.btn {
+    border: none;
+    @include flex(row, center, center, nowrap);
+    @include text($TextfontFamily, 14px, 1.2, 400);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    max-width: 150px;
+    width: 100%;
+    color: $textColor;
+    outline: none;
+    position: relative;
+    z-index: 0;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 10px;
+        background: $primaryColor;
+        bottom: 0;
+        z-index: -1;
+        transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: $textColor;
+
+        &::after {
+            width: 100%;
+            height: 100%;
+            transition: all 0.4s ease-in-out 0s;
+        }
+    }
+}

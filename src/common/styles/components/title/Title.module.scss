@@ -1,17 +1,14 @@
 @import '../../sass/variables.scss';
+@import '../../sass/mixins.scss';
 
-.title {
-    font-family: 'Josefin Slab', sans-serif;
-    margin-bottom: 0 0 30px;
-    font-weight: 300;
-    color: $textColor;
+ .title {
+    margin: 0 0 30px;
+    @include text($TitlefontFamily, 36px ,1.2, 300);
     text-transform: capitalize;
-    position:relative;
-    font-size: 36px;
-    line-height: 1.2;
     letter-spacing: 5px;
     position: relative;
-    .title h2 {
+    text-align: center;
+     h2 {
         margin: 0;
     }
     &::before {
@@ -20,8 +17,8 @@
         background: $primaryColor;
         width: 55px;
         height: 1px;
-        bottom: 30px;
+        bottom: -15px;
         left: 50%;
         transform: translate(-50%,50%);
     }
-}
+} 
