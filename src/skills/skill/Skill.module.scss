@@ -1,16 +1,77 @@
 @import '../../common/styles/sass/variables.scss';
+@import '../../common/styles/sass/mixins.scss';
 
 .skill {
-    width: 250px;
+    /*  width: 250px;
     background-color: $bgColor  ;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: $textColor
-}
+    color: $textColor */
+    max-width: 340px;
+    padding: 40px 0;
+    color: $textColor;
+    position: relative;
+    margin: 0px auto;
+    @include flex(column, center, center, nowrap);
 
-.icon {
-    height: 60px;
-    width: 60px;
-    background-color: $primaryColor ;
+    .container {
+        @include flex(column, space-between, center, nowrap);
+        @include text($TextfontFamily, 16px, 1.2, 400);
+        padding: 20px;
+
+        .icon {
+            color: #4e93e6;
+            height: 80px;
+            width: 80px;
+            margin: 0px auto 30px;
+            background: rgba(255, 255, 255, 0.1);
+            display: block;
+            line-height: 80px;
+            font-size: 30px;
+            box-shadow: inset -6px 10px 40px rgba(0, 0, 0, 0.06);
+            text-align: center;
+            transform: rotate(45deg);
+            transform-origin: center;
+            position: relative;
+
+            &::before {
+                box-sizing: border-box;
+            }
+
+            style {
+                height: 55%;
+                width: 55%;
+                transform-origin: center;
+                margin: 0 auto 30px;
+                transform: rotate(-45deg);
+                -webkit-font-smoothing: antialiased;
+                display: inline-block;
+                font-style: normal;
+                font-variant: normal;
+                text-rendering: auto;
+                line-height: 1;
+            }
+
+            &::before {
+                box-sizing: border-box;
+            }
+
+        }
+
+        h3 {
+            text-transform: uppercase;
+            margin-top: 40px;
+            padding: 0;
+            @include text($TextfontFamily, 22px, 1.2, 700);
+        }
+
+        .description {
+            padding-top: 30px;
+            text-align: center;
+            @include text($TextfontFamily, 16px, 1.8, 400);
+        }
+    }
+
+
 }

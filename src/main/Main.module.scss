@@ -17,25 +17,25 @@
             @include flex(column, flex-start, flex-start, nowrap);
 
             span {
-                color:$textColor;
+                color: $textColor;
                 font-size: 16px;
 
                 &:nth-child(2) {
                     @include text($TitlefontFamily, 60px, 1.2, 700);
                     letter-spacing: 5px;
                     margin: 10px 0;
+                    position: relative;
+                    z-index: 0;
+                    display: inline-block;
+
                     span {
                         @include text($TitlefontFamily, 60px, 1.2, 700);
-                        letter-spacing: 5px;
-                        position: relative;
-                        z-index: 0;
-                        display: inline-block;
 
                         &:before {
                             content: "";
                             position: absolute;
-                            width: 100%;
-                            height: 20px;
+                            width: 76%;
+                            height: 25px;
                             background-color: $primaryColor;
                             bottom: 0;
                             z-index: -1;
@@ -43,49 +43,50 @@
                     }
                 }
             }
-
-            h1 {
-                @include text($TextfontFamily, 28px, 1.8, 400);
-                margin: 0;
-            }
-
-            @media screen and(max-width:1143px) {
-                align-items: center;
-            }
         }
 
-        .photo {
-            position: relative;
-            z-index: 1;
+        h1 {
+            @include text($TextfontFamily, 28px, 1.8, 400);
+            margin: 0;
+        }
 
-            @media screen and(max-width:1143px) {
-                margin-top: 50px;
+        @media screen and(max-width:1143px) {
+            align-items: center;
+        }
+    }
 
+    .photo {
+        position: relative;
+        z-index: 1;
+
+        @media screen and(max-width:1143px) {
+            margin-top: 50px;
+
+        }
+
+        .image {
+            height: 400px;
+            width: 300px;
+            @include bgSetting();
+            background-image: url("./../assets/images/my.jpg");
+            background-position: 80% 0;
+
+            @media screen and(max-width:600px) {
+                height: 360px;
+                width: 260px;
+                transition: .5s;
             }
-            .image {
-                height: 400px;
-                width: 300px;
-                @include bgSetting();
-                background-image: url("./../assets/images/my.jpg");
-                background-position: 80% 0;
-                @media screen and(max-width:600px) {
-                    height: 360px;
-                    width: 260px;
-                    transition: .5s;
-                }
-                &:before {
-                    content: "";
-                    position: absolute;
-                    height: 110%;
-                    width: 105%;
-                    border:5px solid $primaryColor;
-                    left: 15px;
-                    top: -15px;
-                    z-index: -1;
-                }
+
+            &:before {
+                content: "";
+                position: absolute;
+                height: 110%;
+                width: 105%;
+                border: 5px solid $primaryColor;
+                left: 15px;
+                top: -15px;
+                z-index: -1;
             }
         }
     }
 }
- 
- 

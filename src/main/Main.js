@@ -8,7 +8,7 @@ function MainBlock() {
             <div className={styles.container}>
                 <div className={styles.text}>
                     <span>Hi There</span>
-                    <span> I am Dasha <span> Kurilovich</span></span>
+                    <span> I am  <span>Dasha Kurilovich</span></span>
                     <h1>Frontend Developer.</h1>
                 </div>
                 <div className={styles.photo}>

@@ -4,10 +4,12 @@ import styles from './Nav.module.scss';
 function Nav() {
   return (
     <div className={styles.nav}>
-      <a href="">Главная</a>
-      <a href="">Скиллы</a>
-      <a href="">Проекты</a>
-      <a href="">Контакты</a>
+      <div className={styles.container}>
+        <a className={styles.main}>Main</a>
+        <a className={styles.main}>Skills</a>
+        <a className={styles.main}>Projects</a>
+        <a className={styles.main}>Contacts</a>
+      </div>
     </div>
   );
 }
