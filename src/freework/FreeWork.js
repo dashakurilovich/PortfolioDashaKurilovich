@@ -8,7 +8,7 @@ import Button from '../common/styles/components/button/Button';
 function FreeWork() {
     return (
         <div className={styles.mainWrapWork}>
-            <div className={`${styleContainer.container} ${styles.freeWork}`}>
+            <div className={styles.container}>
                 <Title text={"I am avaiable for freelance"} />
                 <Button text="Нанять меня"></Button>
             </div>

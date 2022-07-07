@@ -1,23 +1,11 @@
 @import '../common/styles/sass/variables.scss';
+@import '../common/styles/sass/mixins.scss';
 
 .mainWrapWork {
     background-color: $bgSecondColor;
-}
-
-.title {
-    background-color:  rgb(184, 255, 231);
-    font-weight: bold;
-}
-
-.freeWork {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.freeWorkBtn {
-padding: 10px 20px;
-background-color: $primaryColor;
-color:$textColor
+    padding: auto;
+    .container {
+        @include container();
+        @include flex(column, center, center, wrap);
+    }
 }

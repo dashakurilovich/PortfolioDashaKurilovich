@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './MyWorks.module.scss';
-import styleContainer from '../common/styles/Conteiner.module.css'
 import MyWork from './myWork/MyWork';
 import Title from '../common/styles/components/title/Title';
 import todoImage from './../assets/images/todolists.jpg'
@@ -18,7 +17,7 @@ function MyWorks() {
 
     return (
         <div className={styles.mainWrap}>
-            <div className={`${styleContainer.container} ${styles.myWorkConteiner}`} >
+            <div className={styles.container} >
                 <Title text={"Projects"} />
                 <div className={styles.myWorks} >
                     <MyWork

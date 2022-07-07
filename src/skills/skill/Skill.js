@@ -6,7 +6,8 @@ function Skill(props) {
 
         <div className={styles.skill}>
             <div className={styles.container}>
-                <div className={styles.icon} style={props.style}>
+                <div className={styles.icon} >
+                    <p className={styles.fasFaCode}></p>
                 </div>
                 <h3>{props.title}</h3>
                 <span className={styles.description} >

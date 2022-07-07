@@ -34,29 +34,35 @@
             transform: rotate(45deg);
             transform-origin: center;
             position: relative;
+            object-fit: scale-down;
 
             &::before {
                 box-sizing: border-box;
             }
 
-            style {
-                height: 55%;
-                width: 55%;
-                transform-origin: center;
-                margin: 0 auto 30px;
-                transform: rotate(-45deg);
+            .fasFaCode {
+                @include flex(row, center, center, nowrap);
+                position: relative;
+                font-weight: 800;
+                width: 40px;
+                height: 43px;
                 -webkit-font-smoothing: antialiased;
                 display: inline-block;
                 font-style: normal;
                 font-variant: normal;
                 text-rendering: auto;
                 line-height: 1;
+                
             }
 
             &::before {
+                content: '\2611';
                 box-sizing: border-box;
+                position: absolute;
+                transform: rotate(-45deg);
+                font-weight: 800;
+                font-size: 50px;
             }
-
         }
 
         h3 {
