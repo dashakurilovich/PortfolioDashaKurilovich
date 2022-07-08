@@ -1,19 +1,19 @@
 @import '../sass/variables.scss';
 
-@mixin text( $fontFamily, $fontSize, $lineHeight, $fontWeight) {
+@mixin text($fontFamily, $fontSize, $lineHeight, $fontWeight) {
     font-family: $fontFamily;
     font-size: $fontSize;
     line-height: $lineHeight;
     font-weight: $fontWeight;
-    color:$textColor
+    color: $textColor
 }
 
 @mixin container() {
     width: 80%;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
 
-@mixin flex($direction, $justifyContent, $alignItems, $wrap){
+@mixin flex($direction, $justifyContent, $alignItems, $wrap) {
     display: flex;
     flex-direction: $direction;
     justify-content: $justifyContent;
