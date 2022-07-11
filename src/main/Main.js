@@ -1,6 +1,9 @@
 import React from 'react';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-tilt'
 
 import styles from './Main.module.scss';
 import particlesSpace from '../assets/particles/space.json';
@@ -12,18 +15,24 @@ function MainBlock() {
   };
 
   return (
-    <div className={styles.mainBlock}>
+    <div id="main" className={styles.mainBlock}>
       <Particles init={particlesInit} options={particlesSpace} className={styles.particles} />
-      <div className={styles.container}>
-        <div className={styles.text}>
-          <span>Hi There</span>
-          <span> I am  <span>Dasha Kurilovich</span></span>
-          <h1>Frontend Developer.</h1>
+      <Fade bottom>
+        <div className={styles.container}>
+          <div className={styles.text}>
+            <span>Hi There</span>
+            <span> I am  <span>Dasha Kurilovich</span></span>
+            <ReactTypingEffect
+              text={["Frontend  Developer"]} className={styles.typeEffect}
+            />
+          </div>
+          <Tilt className="Tilt" options={{ max: 25 }} >
+            <div className={styles.photo}>
+              <div className={styles.image}></div>
+            </div>
+          </Tilt>
         </div>
-        <div className={styles.photo}>
-          <div className={styles.image}></div>
-        </div>
-      </div>
+      </Fade>
     </div >
   );
 }

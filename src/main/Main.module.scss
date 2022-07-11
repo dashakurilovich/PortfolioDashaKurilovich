@@ -52,12 +52,12 @@
           }
         }
       }
+      .typeEffect {
+        @include text($TextfontFamily, 28px, 1.8, 400);
+        margin: 0;
+      }
     }
 
-    h1 {
-      @include text($TextfontFamily, 28px, 1.8, 400);
-      margin: 0;
-    }
 
     @media screen and(max-width:1143px) {
       align-items: center;

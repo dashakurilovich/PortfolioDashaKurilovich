@@ -3,18 +3,25 @@
 
 .nav {
   
-    min-height: 100vh;
-    @include flex(row, space-around, center, nowrap);
+    width: 340px;
+    @include flex(row, space-between, stretch, nowrap);
 
     .container {
         @include container();
         @include flex(row, flex-end, center, nowrap);
 
-        .main {
-            @include flex(row, space-around, center, nowrap);
-            @include text($TextfontFamily, 18px, 1.2, 400);
-            padding: 20px;
-            margin-top: 5px;
+    }
+    a {
+        @include text($TextfontFamily, 18px, 1.2, 400);
+        padding: 20px;
+        margin-top: 5px;
+        cursor: pointer;
+        &:hover {
+            text-decoration: none;
+            color:$primaryColor;
         }
+    }
+    .active {
+            color:$primaryColor;
     }
 }
