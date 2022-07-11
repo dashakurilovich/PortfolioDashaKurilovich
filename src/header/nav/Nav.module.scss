@@ -1,27 +1,33 @@
-@import '../common/styles/sass/variables.scss';
-@import '../common/styles/sass/mixins.scss';
+@import '../../common/styles/sass/mixins.scss';
+@import '../../common/styles/sass/variables.scss';
 
 .nav {
-  
+
     width: 340px;
     @include flex(row, space-between, stretch, nowrap);
 
     .container {
         @include container();
         @include flex(row, flex-end, center, nowrap);
-
     }
+
     a {
         @include text($TextfontFamily, 18px, 1.2, 400);
         padding: 20px;
         margin-top: 5px;
         cursor: pointer;
+
         &:hover {
             text-decoration: none;
-            color:$primaryColor;
+            color: $primaryColor;
         }
     }
+
     .active {
-            color:$primaryColor;
+        color: $primaryColor;
+    }
+
+    @media screen and (max-width:450px) {
+        display: none;
     }
 }
