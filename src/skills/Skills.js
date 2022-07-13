@@ -14,21 +14,15 @@ function Skills() {
           <Title text={"Skills"} />
           <div className={styles.skills} >
             <Skill
-              title={"JS"}
-              description={"Lorem ipsum dolor sit amet incididunt ut labore et dolore magna aliqua Ut enim"}
+              title={"JS/TypeScript"}
+              description={""}
             />
             <Skill
-              title={"CSS"}
-              description={" consectetur adipisicing elit, sed do eiusmod tempor"} />
+              title={"HTML/CSS"}
+              description={"SASS/ Media Requests/ "} />
             <Skill
               title={"REACT"}
-              description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"} />
-            <Skill
-              title={"HTML"}
-              description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"} />
-            <Skill
-              title={"TYPESCRIPT"}
-              description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"} />
+              description={" React.js / Redux / Redux Toolkit"} />
           </div>
         </div>
       </Fade>

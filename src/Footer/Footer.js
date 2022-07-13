@@ -18,7 +18,7 @@ function Footer() {
           <Title text={"Darya Kurilovich"} />
           <div className={styles.socialIcons}>
             <div className={styles.socialIcon}>
-              <a href="">
+              <a href="https://t.me/kamazaf">
                 <img src={telegramIcon} alt="" />
               </a>
             </div>
@@ -28,12 +28,12 @@ function Footer() {
               </a>
             </div>
             <div className={styles.socialIcon}>
-              <a href="">
+              <a href="https://www.instagram.com/dasha.kurilovich/">
                 <img src={instagramIcon} alt="" />
               </a>
             </div>
             <div className={styles.socialIcon}>
-              <a href="">
+              <a href="https://vk.com/djlsdsd">
                 <img src={vkIcon} alt="" />
               </a>
             </div>

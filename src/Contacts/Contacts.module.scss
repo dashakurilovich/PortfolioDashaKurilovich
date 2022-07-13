@@ -8,6 +8,7 @@
     background: $bgColor;
     .container {
         @include container();
+        width: 100%;
         @include flex(column, flex-start, center, nowrap);
         background: $bgSecondColor;
         .form {

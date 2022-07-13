@@ -3,7 +3,7 @@ import style from './Button.module.scss';
 
 function Button(props) {
     return (
-        <a href='' className={style.btn}>{props.text}</a>
+        <a href={props.link} className={style.btn}>{props.text}</a>
     )
 }
 

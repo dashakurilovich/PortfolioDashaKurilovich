@@ -5,13 +5,16 @@ import Button from '../common/styles/components/button/Button';
 import Fade from 'react-reveal/Fade';
 
 
-function FreeWork() {
+function FreeWork(props) {
+
+
+
   return (
     <div className={styles.mainWrapWork}>
       <Fade bottom>
         <div className={styles.container}>
           <Title text={"I am avaiable for freelance"} />
-          <Button text="Нанять меня"></Button>
+          <Button text="Нанять меня" link="#contacts" ></Button>
         </div>
       </Fade>
     </div>
