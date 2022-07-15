@@ -7,7 +7,7 @@ import socialnetworkImage from './../assets/images/socialnetwork.jpg';
 import Fade from 'react-reveal/Fade';
 
 
-function MyWorks() {
+function MyWorks(props) {
 
   const social = {
     backgroundImage: `url(${socialnetworkImage})`,
@@ -28,6 +28,7 @@ function MyWorks() {
               shortDescription={"An online platform that is used for communication, dating, creating social relationships between people who have similar interests or offline connections, as well as for entertainment (music, movies) and work."}
             />
             <MyWork
+              link={"https://github.com/dashakurilovich/MYTODO"}
               style={todolist}
               title={"Todo List"}
               shortDescription={"Todoist is a web service and a collection of task management software. Tasks can also contain notes with files of any type. Tasks can be placed in projects, sorted by filters, labeled, edited and exported."}
