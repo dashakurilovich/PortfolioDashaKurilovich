@@ -15,14 +15,14 @@ function Skills() {
           <div className={styles.skills} >
             <Skill
               title={"JS/TypeScript"}
-              description={"UseState/UseEffect/useSelector/ clases/styled components/array methods"}
+              description={" Classes/array methods/switch/while/ if else/ async await / EventLoop/promise"}
             />
             <Skill
               title={"HTML/CSS"}
               description={"SASS/ media requests/ grid / flexbox / typing-effect/ react-scroll/material ui/formik "} />
             <Skill
               title={"REACT"}
-              description={" React.js / hooks /redux / redux toolkit /EventLoop/ rest api / localStorage / promise / git / flux / async/await/ axios/ thunk"} />
+              description={" React.js / hooks /redux / redux toolkit / rest api / localStorage  / git / flux /formik / axios/ thunk"} />
           </div>
         </div>
       </Fade>
