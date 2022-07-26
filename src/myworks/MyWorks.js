@@ -12,7 +12,7 @@ function MyWorks(props) {
   const weather = {
     backgroundImage: `url(${weatherImage})`,
   };
-  const todolist = {
+  const todolists = {
     backgroundImage: `url(${todoImage})`,
   };
 
@@ -29,7 +29,7 @@ function MyWorks(props) {
             />
             <MyWork
               link={"https://github.com/dashakurilovich/MYTODO"}
-              style={todolist}
+              style={todolists}
               title={"Todo List"}
               shortDescription={"Todoist is a web service and a collection of task management software. Tasks can also contain notes with files of any type. Tasks can be placed in projects, sorted by filters, labeled, edited and exported."}
             />
