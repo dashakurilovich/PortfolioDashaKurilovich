@@ -3,14 +3,14 @@ import styles from './MyWorks.module.scss';
 import MyWork from './myWork/MyWork';
 import Title from '../common/styles/components/title/Title';
 import todoImage from './../assets/images/todolists.jpg';
-import socialnetworkImage from './../assets/images/socialnetwork.jpg';
+import weatherImage from './../assets/images/weather.jpg';
 import Fade from 'react-reveal/Fade';
 
 
 function MyWorks(props) {
 
-  const social = {
-    backgroundImage: `url(${socialnetworkImage})`,
+  const weather = {
+    backgroundImage: `url(${weatherImage})`,
   };
   const todolist = {
     backgroundImage: `url(${todoImage})`,
@@ -23,8 +23,8 @@ function MyWorks(props) {
           <Title text={"Projects"} />
           <div className={styles.myWorks} >
             <MyWork
-              style={social}
-              title={"Social Networking"}
+              style={weather}
+              title={"Weather forecast"}
               shortDescription={"An online platform that is used for communication, dating, creating social relationships between people who have similar interests or offline connections, as well as for entertainment (music, movies) and work."}
             />
             <MyWork
