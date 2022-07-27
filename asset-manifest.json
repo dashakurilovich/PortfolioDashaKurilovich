@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PortfolioDashaKurilovich/static/css/main.50179bb2.chunk.css",
-    "main.js": "/PortfolioDashaKurilovich/static/js/main.ac4f7bf2.chunk.js",
-    "main.js.map": "/PortfolioDashaKurilovich/static/js/main.ac4f7bf2.chunk.js.map",
+    "main.js": "/PortfolioDashaKurilovich/static/js/main.39816fe8.chunk.js",
+    "main.js.map": "/PortfolioDashaKurilovich/static/js/main.39816fe8.chunk.js.map",
     "runtime-main.js": "/PortfolioDashaKurilovich/static/js/runtime-main.e79b732f.js",
     "runtime-main.js.map": "/PortfolioDashaKurilovich/static/js/runtime-main.e79b732f.js.map",
     "static/js/2.0f139138.chunk.js": "/PortfolioDashaKurilovich/static/js/2.0f139138.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.e79b732f.js",
     "static/js/2.0f139138.chunk.js",
     "static/css/main.50179bb2.chunk.css",
-    "static/js/main.ac4f7bf2.chunk.js"
+    "static/js/main.39816fe8.chunk.js"
   ]
 }
