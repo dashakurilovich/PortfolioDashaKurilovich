@@ -23,15 +23,16 @@ function MyWorks(props) {
           <Title text={"Projects"} />
           <div className={styles.myWorks} >
             <MyWork
+              link={"https://dashakurilovich.github.io/The-weather/"}
               style={weather}
               title={"Weather forecast"}
-              shortDescription={"An online platform that is used for communication, dating, creating social relationships between people who have similar interests or offline connections, as well as for entertainment (music, movies) and work."}
+              shortDescription={"Source: https://github.com/dashakurilovich/The-weather      Status: in process"}
             />
             <MyWork
-              link={"https://github.com/dashakurilovich/MYTODO"}
+              link={"https://dashakurilovich.github.io/MYTODO/"}
               style={todolists}
               title={"Todo List"}
-              shortDescription={"Todoist is a web service and a collection of task management software. Tasks can also contain notes with files of any type. Tasks can be placed in projects, sorted by filters, labeled, edited and exported."}
+              shortDescription={" Source: https://github.com/dashakurilovich/MYTODO         Status: completed"}
             />
           </div>
         </div>
