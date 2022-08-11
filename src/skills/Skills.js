@@ -22,7 +22,7 @@ function Skills() {
               description={"SASS/ media requests/ grid / flexbox / typing-effect/ react-scroll/material ui/formik "} />
             <Skill
               title={"REACT"}
-              description={" React.js / hooks /redux / redux toolkit / rest api / localStorage  / git / flux /formik / axios/ thunk"} />
+              description={" React.js / hooks /redux / redux toolkit / rest api / localStorage  / git / flux /formik / axios/ thunk "} />
           </div>
         </div>
       </Fade>
