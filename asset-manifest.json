@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PortfolioDashaKurilovich/static/css/main.50179bb2.chunk.css",
-    "main.js": "/PortfolioDashaKurilovich/static/js/main.0e221ab5.chunk.js",
-    "main.js.map": "/PortfolioDashaKurilovich/static/js/main.0e221ab5.chunk.js.map",
+    "main.js": "/PortfolioDashaKurilovich/static/js/main.5fbd7dd9.chunk.js",
+    "main.js.map": "/PortfolioDashaKurilovich/static/js/main.5fbd7dd9.chunk.js.map",
     "runtime-main.js": "/PortfolioDashaKurilovich/static/js/runtime-main.e79b732f.js",
     "runtime-main.js.map": "/PortfolioDashaKurilovich/static/js/runtime-main.e79b732f.js.map",
     "static/js/2.0f139138.chunk.js": "/PortfolioDashaKurilovich/static/js/2.0f139138.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.0f139138.chunk.js.LICENSE.txt": "/PortfolioDashaKurilovich/static/js/2.0f139138.chunk.js.LICENSE.txt",
     "static/media/instagram.76c34df0.jpg": "/PortfolioDashaKurilovich/static/media/instagram.76c34df0.jpg",
     "static/media/Main.module.scss": "/PortfolioDashaKurilovich/static/media/my.913647d8.jpg",
+    "static/media/sneakers.329ebbea.jpg": "/PortfolioDashaKurilovich/static/media/sneakers.329ebbea.jpg",
     "static/media/telegram.703c3e8d.jpg": "/PortfolioDashaKurilovich/static/media/telegram.703c3e8d.jpg",
     "static/media/todolists.87a1cba1.jpg": "/PortfolioDashaKurilovich/static/media/todolists.87a1cba1.jpg",
     "static/media/vk.d4fdfc8a.jpg": "/PortfolioDashaKurilovich/static/media/vk.d4fdfc8a.jpg",
@@ -23,6 +24,6 @@
     "static/js/runtime-main.e79b732f.js",
     "static/js/2.0f139138.chunk.js",
     "static/css/main.50179bb2.chunk.css",
-    "static/js/main.0e221ab5.chunk.js"
+    "static/js/main.5fbd7dd9.chunk.js"
   ]
 }
