@@ -3,6 +3,7 @@
 
 .myWork {
     width: 460px;
+    margin: 20px;
     @include flex(column, center, stretch, nowrap);
     background-color: $bgSecondColor;
 

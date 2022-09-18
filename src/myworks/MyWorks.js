@@ -4,6 +4,7 @@ import MyWork from './myWork/MyWork';
 import Title from '../common/styles/components/title/Title';
 import todoImage from './../assets/images/todolists.jpg';
 import weatherImage from './../assets/images/weather.jpg';
+import sneakersImage from './../assets/images/sneakers.jpg';
 import Fade from 'react-reveal/Fade';
 
 
@@ -14,6 +15,9 @@ function MyWorks(props) {
   };
   const todolists = {
     backgroundImage: `url(${todoImage})`,
+  };
+  const sneakers = {
+    backgroundImage: `url(${sneakersImage})`,
   };
 
   return (
@@ -32,6 +36,12 @@ function MyWorks(props) {
               link={"https://dashakurilovich.github.io/MYTODO/"}
               style={todolists}
               title={"Todo List"}
+              shortDescription={" Source: https://github.com/dashakurilovich/MYTODO         Status: completed"}
+            />
+            <MyWork
+              link={"https://dashakurilovich.github.io/MYTODO/"}
+              style={sneakers}
+              title={"Online store sneakers"}
               shortDescription={" Source: https://github.com/dashakurilovich/MYTODO         Status: completed"}
             />
           </div>
