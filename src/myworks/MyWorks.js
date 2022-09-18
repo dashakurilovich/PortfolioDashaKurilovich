@@ -39,10 +39,10 @@ function MyWorks(props) {
               shortDescription={" Source: https://github.com/dashakurilovich/MYTODO         Status: completed"}
             />
             <MyWork
-              link={"https://dashakurilovich.github.io/MYTODO/"}
+              link={"https://dashakurilovich.github.io/onlineStore/"}
               style={sneakers}
               title={"Online store sneakers"}
-              shortDescription={" Source: https://github.com/dashakurilovich/MYTODO         Status: completed"}
+              shortDescription={" Source: https://github.com/dashakurilovich/onlineStore        Status: completed"}
             />
           </div>
         </div>
